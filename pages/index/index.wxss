@@ -1,0 +1,81 @@
+.container {
+  padding: 0;
+  background-color: #ffffff;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.carousel {
+  width: 100%;
+  height: 250rpx;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+}
+
+.banner {
+  width: 100%;
+  height: 90rpx;
+  margin-top: 5rpx;
+}
+
+.banner-image{
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+}
+
+.section {
+  padding: 20rpx;
+}
+
+.section-title {
+  font-size: 36rpx;
+  font-weight: bold;
+  margin-bottom: 20rpx;
+  color: #333;
+}
+
+.spots {
+  display: flex;
+  flex-direction: column;
+  gap: 20rpx;
+}
+
+.spot-card {
+  display: flex;
+  border-radius: 16rpx;
+  overflow: hidden;
+  box-shadow: 0 4rpx 10rpx rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.spot-image {
+  width: 200rpx;
+  height: 150rpx;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.spot-info {
+  padding: 20rpx;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.spot-name {
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 10rpx;
+}
+
+.spot-desc {
+  font-size: 24rpx;
+  color: #666;
+  line-height: 36rpx;
+}

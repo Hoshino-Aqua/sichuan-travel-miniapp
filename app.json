@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/splash/splash",
+    "pages/index/index",
+    "pages/guest/guest",
+    "pages/video/video",
+    "pages/picture/picture"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1E90FF",
+    "navigationBarTextStyle": "white"
+  },  
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#000000",
+    "borderStyle": "white",
+    "backgroundColor": "#fff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "images/map.png",
+      "selectedIconPath": "images/picture.png",
+      "text": "首页"
+    },{
+      "pagePath": "pages/guest/guest",
+      "iconPath": "images/index.png",
+      "selectedIconPath": "images/partner.png",
+      "text": "加入我们"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

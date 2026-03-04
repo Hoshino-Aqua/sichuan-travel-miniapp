@@ -1,0 +1,50 @@
+/* 保证背景图铺满 */
+.wrapper {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.bg-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  padding: 20rpx;
+}
+
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background: linear-gradient(135deg, #a8edea, #fed6e3); */
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  opacity: 0;
+  transform: scale(0.8);
+}
+
+.start-button {
+  margin-top: 40px;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 25px;
+  background-color: #ff8a65;
+  color: white;
+  border: none;
+  opacity: 0;
+  transform: translateY(50px);
+}

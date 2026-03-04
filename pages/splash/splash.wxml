@@ -1,0 +1,13 @@
+<view class="wrapper">
+  <image src="/images/b1.png" class="bg-image" mode="contain" />
+  <view class="content">
+    <view class="container">
+  <view class="logo" animation="{{logoAnimation}}">
+    我来为你介绍四川！
+  </view>
+  <button class="start-button" animation="{{buttonAnimation}}" bindtap="goToHome">
+  开始使用
+</button>
+</view>
+  </view>
+</view>

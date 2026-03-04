@@ -1,0 +1,35 @@
+<view class="container">
+  <!-- 顶部轮播图 -->
+  <swiper class="carousel" autoplay circular interval="3000">
+    <swiper-item>
+      <image src="/images/banner1.jpg" class="carousel-image" mode="aspectFill" />
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/banner2.jpg" class="carousel-image" mode="aspectFill" />
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/banner3.jpg" class="carousel-image" mode="aspectFill" />
+    </swiper-item>
+  </swiper>
+
+  <!-- 横幅 -->
+  <view class="banner">
+    <image src="/images/b3.png" class="banner-image"></image>
+  </view>
+
+  <!-- 景点介绍 -->
+  <view class="section">
+    <text class="section-title">推荐景点</text>
+    <view class="spots">
+      <block wx:for="{{spots}}" wx:key="name">
+        <view class="spot-card" bindtap="goToMap" data-spot="{{item}}">
+          <image src="{{item.image}}" class="spot-image" mode="aspectFill" />
+          <view class="spot-info">
+            <text class="spot-name">{{item.name}}</text>
+            <text class="spot-desc">{{item.description}}</text>
+          </view>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>

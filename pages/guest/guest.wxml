@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="head-bg" >
+  <button class="avatar-wrapper" open-type="chooseAvatar" bindchooseavatar="onChooseAvatar">
+  <image class="avatar" src="{{ avatarUrl }}"></image>
+</button>
+<input type="nickname" class="nickname" placeholder="请输入昵称" />
+<input type="getPhoneNumber" class="getPhoneNumber" placeholder="请输入手机号" />
+<button class="submit-btn" bindtap="goToHome">报名</button>
+  </view>

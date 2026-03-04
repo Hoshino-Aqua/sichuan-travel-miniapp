@@ -1,0 +1,7 @@
+<view class="wrapper">
+  <image src="/images/lovemail.gif"/>
+  <view class="video">
+  <video src="http://localhost:3000/01.mp4" objectFit="fill"></video>
+</view>
+</view>
+

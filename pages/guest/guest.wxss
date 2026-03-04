@@ -1,0 +1,53 @@
+/**index.wxss**/
+page {
+  background-color: rgb(228, 240, 245);
+}
+
+.avatar-wrapper {
+  width: 160rpx;
+  height: 160rpx;
+  margin-top: 50rpx;
+  margin-bottom: 150rpx;
+  padding: 0;
+  background: none;
+}
+
+.avatar {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 20rpx;
+}
+
+.nickname {
+  width: 80%;
+  height: 100rpx;
+  margin: 50px auto;
+  border: 1px solid #000000;
+  text-align: center;
+}
+
+.getPhoneNumber{
+  width: 80%;
+  height: 100rpx;
+  margin: 50px auto;
+  border: 1px solid #000000;
+  text-align: center;
+}
+
+.submit-btn {
+  width: 60%;
+  height: 100rpx;
+  margin-top: 50rpx;
+  background-color: #4caf50;
+  color: white;
+  font-size: 32rpx;
+  border-radius: 20rpx;
+  text-align: center;
+  line-height: 70rpx;
+  box-shadow: 0 8rpx 16rpx rgba(76, 175, 80, 0.3);
+  transition: background-color 0.3s;
+}
+
+.submit-btn:active {
+  background-color: #43a047;
+}
